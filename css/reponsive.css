@@ -1,0 +1,151 @@
+/* Tablet & mobile */
+@media only screen and (max-width: 1023px){
+    .btn{
+        padding: 16px 20px;
+    }
+
+    .contract-form .form-control{
+        padding: 15px;
+    }
+
+    #footer .social-list a{
+        margin-right: 10px;
+        font-size: 40px;
+    }
+
+    #footer .copyright{
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .list .items .subnav a{
+        padding: 5px 12px;
+        line-height: 40px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    #container .container-section{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 18px;
+    }
+
+    #header .mobile-menu-btn{
+        display: none;
+    }
+
+    .contract-infor{
+        line-height: 2;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px){
+    /* common */
+    .column-one{
+        width: 100%;
+    }
+
+    .margin-botttom16{
+        margin-bottom: 16px;
+    }
+
+    .margin-botttom-input{
+        margin-bottom: 10px;
+    }
+
+
+    /* header */
+
+    .list .items{
+        display: block;
+        position: relative;
+        float: none;
+    }
+
+    #header .search{
+        display: none;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header .mobile-menu-btn:hover{
+        background-color: #ccc;
+    }
+
+    #header .menu-icon:hover{
+        color: #000;
+    }
+
+    #header .menu-icon{
+        padding-right: 20px;
+        padding-left: 20px;
+        display: inline-block;
+        cu
+    }
+    
+    /* slider */
+    #slider .text-content{
+        display: none;
+    }
+
+    #slider{
+        width: 100%;
+    }
+
+    /* list */
+    .list > li:first-child{
+        display: inline-block;
+    }
+
+    .list .items .subnav{
+        position: initial;
+        background-color: #000;
+    }
+
+    .list .items .subnav a{
+        color: white;
+        padding: 6px 42px;
+    }
+
+    .list .items a{
+        line-height: 49px;
+    }
+
+    /* container */
+
+    #container .container-section{
+        padding: 64px 16px;
+    }
+
+    #container .member-img{
+        width: 228px;
+    }
+
+    .contract-infor a{
+        opacity: 0.6;
+    }
+
+    .contract-infor a:hover{
+        opacity: 1;
+    }
+    /* button */
+
+    .btn{
+        width: 100%;
+    }
+
+}
