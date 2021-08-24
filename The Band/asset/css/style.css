@@ -1,0 +1,524 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* common */
+.text-color-white{
+    color: #fff !important;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+.row-padding32{
+    padding: 32px 0px;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow: hidden;
+}
+
+.col-full{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.col-half{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+.column{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.column-third{
+    width: 33.33333333%;
+    box-sizing: border-box;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 11px 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border: 0px;
+    cursor: pointer;
+}   
+
+.btn:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.float-right{
+    float: right;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.text-decoration{
+    text-decoration: solid;
+}
+
+.fit-content{
+    width: fit-content;
+}
+
+
+
+/* wrapper */
+#wrapper{
+    
+}
+
+#header{
+    height: 47px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.list{
+    list-style: none;
+}
+
+
+.list .items{
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+
+.list > .items > a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.list .items a{
+    display: block;
+    text-decoration: none;
+    line-height: 47px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.list > .items > .subnav > li:hover > a,
+.list > .items:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+
+.list .items .subnav{
+    background-color: #fff;
+    position: absolute;
+    display: none;
+    list-style: none;
+    box-shadow: 0 0 10px rgb(120 120 120 / 50%);
+    min-width: 160px;
+    top: 100%;
+}
+
+.list .items .subnav a{
+    color: #000;
+    padding: 0 16px;
+    line-height: 38px;
+}
+
+.list > .items:hover > .subnav{
+    display: block;
+}
+
+.list .items .nav-arrow-down{
+    font-size: 13px;
+}
+
+#header .search,
+#header .menu-icon{
+    color: #fff;
+    font-size: 20;
+    line-height: 46px;
+    padding-right: 21px;
+    padding-left: 21px;
+}
+
+
+
+#header .search:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    line-height: 46px;
+}
+
+#header .menu-icon{
+    display: none;
+}
+
+/* Slider */
+#slider{
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/The Band/asset/img/chicago.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .text-content{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slider .text-body{
+    margin: 15px 0px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#slider .text-heading{
+    font-size: 24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+
+/* container */
+
+#container .section-heading{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+#container .section-sub-heading{
+    text-align: center;
+    margin: 10px;
+    font-style: italic;
+    font-weight: 200;
+    opacity: 0.6;
+}
+
+#container .container-section{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+}
+
+#container .about-band{
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+#container .about-band-list{
+    margin-top: 48px;
+    overflow: hidden;
+}
+
+#container .name{
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+#container .member-img{
+    width: 154px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+/* Tour List */
+
+#container .background-tour{
+    background-color: #000;
+}
+
+
+#container .tour-list{
+    background-color: #fff;
+    list-style: none;
+    margin-top: 30px;
+}
+
+#container .tour-items{
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.Sold-out{
+    color: #fff!important;
+    background-color: #f44336!important;
+    margin-left: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+.quantity{
+    color: #fff!important;
+    background-color: #000!important;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+/* Places Tour */
+
+#container .tour-list-places{
+    padding-top: 32px;
+    overflow: hidden;
+}
+
+#container .tour-image{
+    width: 100%;
+    display: block;
+}
+
+#container .tour-image:hover{
+    opacity: 0.7;
+}
+
+#container .place-body{
+    background-color: #fff;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 400;
+}
+#container .places-heading{
+    margin: 15px 0px;
+    font-size: 15px;
+    
+}
+#container .places-date{
+    margin: 15px 0px;
+    opacity: 0.6;
+}
+#container .places-desc{
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+
+
+/* contract */
+
+.contract-infor{
+    font-size: 18px;
+}
+
+.contract-infor i[class*="ti-"]{
+    width: 30px;
+    display: inline-block;
+    line-height: 1.6;
+}
+
+.contract-form{
+    font-size: 15px;
+}
+
+
+.contract-form .form-control{
+    padding: 9px;
+    border: 1px solid #ccc!important;
+    width: 100%;
+}
+
+.contract-infor a{
+    opacity: 0.6;
+}
+
+.contract-infor a:hover{
+    opacity: 1;
+}
+
+/* map-section */
+.map-section img{
+    width: 100%;
+}
+
+/* Footer */
+#footer{
+    padding: 64px 16px;
+    background-color: #f1f1f1!important;
+}
+
+#footer .social-list{
+    font-size: 24px;
+}
+
+#footer .social-list a{
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+
+#footer .social-list a:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .social-list p{
+    font-size: 15px;
+}
+
+
+
+/* Modal */
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.open{
+    display: flex;
+}
+
+.modal-container{
+    background: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    box-shadow: 0 0 10px rgb(120 120 120 / 100%);
+    max-width: calc(100% - 32px);
+    box-sizing: border-box;
+    animation: modalFadeIn ease 0.6s;
+}
+
+.modal-header {
+    background: #009688;
+    padding: 32px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.modal-heading-icon{
+    margin-right: 16px;
+}
+
+.modal-heading-text{
+    letter-spacing: 5px;
+}
+
+.modal-close{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 20px;
+    color: #fff;
+    top: 0;
+    cursor: pointer;
+    opacity: 0.7;
+    /* width: 14px;
+    min-height: 36px; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.modal-close:hover{
+    background: #ccc;
+    color: #000;
+    opacity: 1;
+}
+
+.modal-body{
+    padding: 0.15px 16px;
+}
+
+.modal-label{
+    display: block;
+    font-weight: 200;
+}
+
+.modal-input{
+    display: block;
+    padding: 8px;
+    width: 100%;
+}
+
+.margin-15px{
+    margin: 15px 0px;
+}
+
+.button-buy-tickets{
+    width: 100%;
+    padding: 16px;
+    font-size: 15px;
+    background-color: #009688;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.button-buy-tickets:hover{
+    background: #ccc;
+    color: #000;
+}
+
+.modal-footer{
+    padding: 0.15px 16px;
+    font-size: 15px;
+}
+
+.modal-footer a{
+    color: #2196F3;
+}
+
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

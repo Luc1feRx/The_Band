@@ -1,0 +1,43 @@
+#wrapper{
+    background-color: darkblue;
+    color: #fff;
+    padding: 5px 10px;
+    width: 23%;
+}
+
+body{
+    font-size: 15px;
+    
+}
+
+.header{
+    color: coral;
+}
+
+.sub-header{
+    color: blue;
+}
+
+.div-1{
+    width: 100%;
+}
+
+#wrapper .list,
+#wrapper .list-2{
+    list-style: none;
+    padding: 0%;
+}
+
+li::before{
+    content: "•";
+    color: blue; 
+    padding: 0px 8px;
+    counter-increment: li/* or whatever color you prefer */
+}
+
+
+
+
+/* .container{
+    color: aqua;
+} */
